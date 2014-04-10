@@ -27,4 +27,4 @@ Or
 >``./phoman kill``
 
 Calling ``./phoman`` without argument will ask for arguments.  
-Default carrier is Tata Photon change `$carrier` to according to your carrier in phoman script.
+Default carrier is Tata Photon change `$carrier` to your carrier in phoman script.
