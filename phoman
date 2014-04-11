@@ -19,9 +19,9 @@ else
 fi
 
 case "$todo" in
-	1|[rR][uU][nN]*) $cmd ;;
-	0|[kK][iI][lL][lL]*) sudo kill -9 `pidof $pidprog` 2>/dev/null;;
-	*) echo "Douchebag try run/kill/1/0";exit 0;;
+	1|[rR]|[rR][uU][nN]*) $cmd ;;
+	0|[kK]|[kK][iI][lL][lL]*) sudo kill -9 `pidof $pidprog` 2>/dev/null;;
+	*) echo "Douchebag try r/k/run/kill/1/0";exit 0;;
 esac
 
 if pidof $pidprog
